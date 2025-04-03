@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karina Asanbekova - Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Karina<span> Asanbekova</span></div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Hi, I'm <span class="highlight">Karina Asanbekova</span></h1>
+            <p>A passionate software developer with experience in web development, Java, Python, and functional programming.</p>
+            <div>
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About <span class="highlight">Me</span></h2>
+                <p>I'm a software developer with a focus on creating efficient, user-friendly applications. Currently pursuing my BSc in Artificial Intelligence and Computer Science at the University of Edinburgh, I bring practical experience from both industry roles and academic projects.</p>
+                <p>I enjoy tackling complex problems and have experience in various languages and frameworks, including Java, Python, Haskell, and React. My work spans from developing web applications to implementing algorithms and designing simulations.</p>
+                <p>I'm passionate about creating software that makes a difference, whether it's improving search engine rankings, optimizing user workflows, or building engaging applications with intuitive interfaces.</p>
+            </div>
+            <div class="image-placeholder">
+                <img src="images/profile.jpeg">
+            </div>
+        </div>
+    </section>
+    
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2>My <span class="highlight">Experience</span></h2>
+            
+            <div class="experience-card">
+                <h3>Swarmed</h3>
+                <div class="position">Software Developer</div>
+                <div class="duration">July 2024 - Present</div>
+                <ul>
+                    <li>Improved search engine rankings by 6 times through researching keywords; assessed current performance and recommended strategies to boost visibility</li>
+                    <li>Analyzed and enhanced the user signup workflow to resolve email confirmation issues, implementing a solution to resend confirmation emails via login popups</li>
+                    <li>Ensured consistent functionality across registration and dashboard login workflows</li>
+                </ul>
+            </div>
+            
+            <div class="experience-card">
+                <h3>Edinburgh University Formula Student</h3>
+                <div class="position">Software Developer</div>
+                <div class="duration">September 2024 - Present</div>
+                <ul>
+                    <li>Collaborate within team to develop useful features to improve productivity of other teams</li>
+                    <li>Created a RESTful API and cache to download and display racing data</li>
+                    <li>Optimized the testing process for other teams by making testing data more accessible and easy to visualize</li>
+                </ul>
+            </div>
+            
+            <div class="experience-card">
+                <h3>Sandlines</h3>
+                <div class="position">Software Developer Intern</div>
+                <div class="duration">June - August 2023</div>
+                <ul>
+                    <li>Engineered promotional TikTok campaigns using ChatGPT (scriptwriting), DALL-E (visual assets), and voice AI tools (audio cleanup), producing 10+ videos that boosted app visibility and engagement</li>
+                    <li>Developed Java web scrapers to gather data used to build app, automating input into Google Sheets and reducing manual reporting time by 5 hours</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">Sequent Calculus</div>
+                    <div class="project-content">
+                        <h3>Sequent Calculus</h3>
+                        <p>A Haskell implementation of a sequent calculus system for logical propositions.</p>
+                        <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 15px;">
+                            <li>Engineered a sequent calculus system using recursive algorithms and the `Prop` ADT to model logical propositions</li>
+                            <li>Implemented 12 type-safe inference rules via pattern matching, validated by 20+ test cases for semantic correctness</li>
+                            <li>Passed 100% of 25 test cases (including edge cases like nested implications)</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Haskell</span>
+                            <span class="tech-tag">Functional Programming</span>
+                            <span class="tech-tag">Logic</span>
+                        </div>
+                        <a href="https://github.com/yellowlagoo/sequent-calculus.git" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">Elevator Simulation</div>
+                    <div class="project-content">
+                        <h3>Elevator Simulation</h3>
+                        <p>A realistic elevator simulator with finite state machine logic and physics-based movement.</p>
+                        <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 15px;">
+                            <li>Designed and implemented a finite state machine (FSM) to model elevator logic, simulating 5+ floors with real-time physics for acceleration/deceleration</li>
+                            <li>Architected the MVC framework to decouple logic, UI, and controller layers, enabling seamless team collaboration across 4 developers</li>
+                            <li>Streamlined version control via Git, resolving 15+ merge conflicts and ensuring 100% code integration before deadlines</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">MVC Architecture</span>
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">FSM</span>
+                        </div>
+                        <a href="https://github.com/yellowlagoo/elevatorpain.git" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">Connect Four Game</div>
+                    <div class="project-content">
+                        <h3>Physics-Based Connect Four</h3>
+                        <p>A JavaFX implementation of Connect Four with realistic physics and immersive audio.</p>
+                        <ul style="list-style-type: disc; padding-left: 20px; margin-bottom: 15px;">
+                            <li>Developed a physics-based Connect Four game with JavaFX, featuring realistic chip physics, dynamic SFX, and integrated music control</li>
+                            <li>Implemented MVC architecture to separate game logic from UI, enabling modular testing and future extensibility</li>
+                            <li>Created immersive audio experience with real-time volume controls and seamless playback using the javax.sound API</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">JavaFX</span>
+                            <span class="tech-tag">MVC Architecture</span>
+                            <span class="tech-tag">Physics</span>
+                        </div>
+                        <a href="https://github.com/yellowlagoo/connect-four.git" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>My <span class="highlight">Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">&#128187;</div>
+                    <h3>Languages</h3>
+                    <p>Java, Python, Haskell, HTML, CSS, JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">&#128736;</div>
+                    <h3>Frameworks & Tools</h3>
+                    <p>React, JavaFX, Git, REST APIs, SQL</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">&#128202;</div>
+                    <h3>Concepts</h3>
+                    <p>MVC Architecture, OOP, Functional Programming, Agile</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">&#128640;</div>
+                    <h3>Development</h3>
+                    <p>Web Development, UI/UX, API Design, Database Management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="education" class="education">
+        <div class="container">
+            <h2>My <span class="highlight">Education</span></h2>
+            <div class="education-card">
+                <h3>University of Edinburgh</h3>
+                <div class="degree">BSc. Artificial Intelligence and Computer Science</div>
+                <div class="duration">2024 - 2028</div>
+                <p>Currently pursuing a bachelor's degree in AI and Computer Science, developing a strong foundation in both theoretical concepts and practical applications of computing.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in <span class="highlight">Touch</span></h2>
+            <p>Interested in working together? Feel free to contact me for any project or collaboration.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">&#9993;</div>
+                    <a href="mailto:karina.asanbe@gmail.com">karina.asanbe@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">&#128222;</div>
+                    <span>+1 (650) 309 4510 / +44 7931 804689</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">&#128279;</div>
+                    <a href="https://www.linkedin.com/in/karina-asanbekova" target="_blank">linkedin.com/in/karina-asanbekova</a>
+                </div>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/yellowlagoo" class="social-link" target="_blank">&#128187; GitHub</a>
+                <a href="https://www.linkedin.com/in/karina-asanbekova" class="social-link" target="_blank">&#128101; LinkedIn</a>
+            </div>
+            <p>&copy; 2025 Karina Asanbekova. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
